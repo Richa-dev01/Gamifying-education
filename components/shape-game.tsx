@@ -20,7 +20,7 @@ export default function ShapeGame({ onComplete, onBack }: ShapeGameProps) {
 
   const shapes = [
     {
-      name: "Circle",
+      name: "square",
       svg: <circle cx="50" cy="50" r="40" fill="#FF6B6B" stroke="#333" strokeWidth="3" />,
       description: "Round like a ball",
     },
